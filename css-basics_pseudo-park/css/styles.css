@@ -1,0 +1,53 @@
+/*
+  None of these styles are being applied to the HTML.
+  Can you fix that?
+
+  Once the styles are applied,
+  the park should appear as a pale yellow box with a dashed border.
+*/
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+.park {
+   margin: 16px;
+   border: 2px dashed silver;
+   overflow: hidden;
+   border-radius: 8px;
+   background-color: lightgoldenrodyellow;
+   width: 230px;
+   height: 230px;
+}
+
+.animal {
+   padding: 16px;
+   font-size: 32px;
+
+   /*
+    The animals are very small.
+    The size of the emojis is controlled via the font size.
+    Set the font size to 32px.
+  */
+}
+
+.crocodile {
+   text-align: right;
+}
+.crocodile:hover {
+   background-color: lightblue;
+}
+.giraffe {
+   text-align: center;
+}
+.giraffe:hover {
+   background-color: lightgreen;
+}
+.dino {
+   text-align: left;
+}
+.dino:hover {
+   background-color: lightsalmon;
+}
